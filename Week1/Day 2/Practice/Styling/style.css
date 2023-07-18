@@ -1,0 +1,27 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+.block1 {
+    background-color: rgb(75, 75, 75);
+    padding: 5px;
+    margin-bottom: 10px;
+    text-decoration: bold;
+}
+.block2 {
+    background-color: rebeccapurple;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.block3 {
+    background-color:aquamarine;
+    padding: 5px;
+    text-align: right;
+}
+a{
+    color: black;
+}
+span {
+    color: aqua;
+}

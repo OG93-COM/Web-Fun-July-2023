@@ -1,0 +1,56 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 600px;
+    border: 2px solid black;
+    height: 310px;
+}
+.topbar {
+    height: 70px;
+    background-color: rgb(0, 125, 153);
+}
+.topbar img {
+    width: 100px;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 3px 2px black;
+}
+.info {
+    background-color: white;
+    margin: 60px 0px 0px 20px;
+}
+.local {
+    display: flex;
+    justify-content: left;
+    margin: 10px 0px 10px 0px;
+    
+}
+.local img { 
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    padding-top: 5px;
+}
+.edit {
+    display: flex;
+    justify-content: left;
+    margin: 10px 0px 10px 0px;
+}
+.edit img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    padding-top: 3px;
+}

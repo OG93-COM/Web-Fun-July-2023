@@ -1,6 +1,7 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 2px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Navbar Start */
@@ -28,32 +29,41 @@
 .nav-links {
     list-style-type: none;
     text-decoration: none;
-    display: flex;
-    justify-content: spacle-between;
+    display: inline-flex;
+    align-items: center;
+    width: 70%;
 
 }
 .btn {
-    background-color: rgb(67, 127, 255);
+    background-color: rgb(19 162 194);
     color: white;
     font-size: 20px;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
     
+}
+.btn:hover {
+    background-color: rgb(0, 224, 244); 
+    font-size: 21px; 
 }
 /* Navbar End */
 
 .layout {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
 }
 .container{
     display: block;
     justify-content: center;
-    margin-top: 20px;
+    
     
 }
 .sideright{
     display: block;
     justify-content: center;
-    margin-top: 20px;
     
 }
 
@@ -109,6 +119,7 @@
 /* Card End */
 /* Card Black Start */
 .topbarblack {
+    display: flex;
     height: 50px;
     background-color: gray;
     padding: 20px 0px 0px 20px;
@@ -146,13 +157,15 @@
     width: 400px;
     box-shadow: 1px 4px 4px 2px grey;
     height: 240px;
-    margin: 20px;
+    margin-top: 20px;
+    overflow: auto;
 }
 .cardYourCon {
     width: 400px;
     box-shadow: 1px 4px 4px 2px grey;
-    height: 440px;
-    margin: 20px;
+    height: 420px;
+    margin-top: 20px;
+    overflow: auto;
 }
 .profile {
     display: inline-flex;
@@ -180,5 +193,20 @@ hr{
 }
 .cardYourCon a {
     font-size: larger;
-    margin-left: inherit;
+    padding: 20px 20px 0px 20px;
+    
+}
+.cardYourCon a:hover{
+    color: rgb(0, 166, 255);
+    padding: 20px 20px 0px 20px;
+    
+}
+.numlogo {
+    background-color: lightgrey;
+    color: gray;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 30px;
+    padding: 4px 10px;
+    margin-right: 10px;
 }

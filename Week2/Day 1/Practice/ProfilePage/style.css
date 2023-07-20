@@ -1,0 +1,184 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2px;
+}
+
+/* Navbar Start */
+.nav {
+    background-color: rgb(75, 75, 75);
+    padding: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+}
+.nav a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+}
+.nav-title {
+    display: flex;
+    justify-content: left; 
+
+}
+
+.nav-links {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: spacle-between;
+
+}
+.btn {
+    background-color: rgb(67, 127, 255);
+    color: white;
+    font-size: 20px;
+    
+}
+/* Navbar End */
+
+.layout {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.sideright{
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+/* Card Start */
+.card {
+    width: 600px;
+    box-shadow: 1px 4px 4px 2px grey;
+    height: 310px;
+    margin: 20px;
+}
+.topbar {
+    height: 70px;
+    background-color: rgb(0, 125, 153);
+}
+
+
+.topbar img {
+    width: 100px;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 3px 2px black;
+}
+.info {
+    background-color: white;
+    margin: 60px 0px 0px 20px;
+}
+.local {
+    display: flex;
+    justify-content: left;
+    margin: 10px 0px 10px 0px;
+    
+}
+.local img { 
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    padding-top: 5px;
+}
+.edit {
+    display: flex;
+    justify-content: left;
+    margin: 10px 0px 10px 0px;
+}
+.edit img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    padding-top: 3px;
+}
+/* Card End */
+/* Card Black Start */
+.topbarblack {
+    height: 50px;
+    background-color: gray;
+    padding: 20px 0px 0px 20px;
+}
+.topbarblack h2 {
+    color: white;
+}
+.cardblack {
+    width: 600px;
+    box-shadow: 1px 4px 4px 2px grey;
+    height: 210px;
+    margin: 20px;
+}
+.infoblack {
+    background-color: white;
+    margin: 20px 0px 0px 20px;
+}
+.infoblack h1 {
+    margin-bottom: 10px;
+}
+.infoblack p {
+    margin-top: 10px;
+}
+.infoblack em {
+     margin-left: 10px;
+}
+/* Card Black End */
+.pofilecircle {
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+/* Card Black PM Start */
+.cardReq {
+    width: 400px;
+    box-shadow: 1px 4px 4px 2px grey;
+    height: 240px;
+    margin: 20px;
+}
+.cardYourCon {
+    width: 400px;
+    box-shadow: 1px 4px 4px 2px grey;
+    height: 440px;
+    margin: 20px;
+}
+.profile {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0px 0px 10px;
+    
+}
+.profile img { 
+    margin-right: 10px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 3px 2px black;
+    padding-top: 5px;
+}
+.circle img {
+    width: 40px;
+    padding-top: 15px;
+}
+/* Card Black PM End */
+
+hr{
+    border: 1px solid gray;
+    margin: 10px 0px 10px 0px;
+}
+.cardYourCon a {
+    font-size: larger;
+    margin-left: inherit;
+}

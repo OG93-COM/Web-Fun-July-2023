@@ -52,7 +52,7 @@
 .layout {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
 }
 .container{
@@ -69,10 +69,11 @@
 
 /* Card Start */
 .card {
-    width: 600px;
+    width: 100%;
     box-shadow: 1px 4px 4px 2px grey;
     height: 310px;
     margin: 20px;
+    overflow: scroll;
 }
 .topbar {
     height: 70px;
@@ -95,23 +96,21 @@
 }
 .local {
     display: flex;
-    justify-content: left;
+    gap: 10px;
     margin: 10px 0px 10px 0px;
     
 }
 .local img { 
-    margin-right: 10px;
     width: 15px;
     height: 15px;
     padding-top: 5px;
 }
 .edit {
     display: flex;
-    justify-content: left;
+    gap: 10px;
     margin: 10px 0px 10px 0px;
 }
 .edit img {
-    margin-right: 10px;
     width: 15px;
     height: 15px;
     padding-top: 3px;
@@ -128,10 +127,11 @@
     color: white;
 }
 .cardblack {
-    width: 600px;
+    width: 100%;
     box-shadow: 1px 4px 4px 2px grey;
     height: 210px;
     margin: 20px;
+    overflow: scroll;
 }
 .infoblack {
     background-color: white;
@@ -165,7 +165,7 @@
     box-shadow: 1px 4px 4px 2px grey;
     height: 420px;
     margin-top: 20px;
-    overflow: auto;
+    overflow: hidden;
 }
 .profile {
     display: inline-flex;

@@ -1,0 +1,88 @@
+* {
+    font-family: sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+/* NAV */
+ nav {
+    width: 80%;
+    background-color: rgb(195, 195, 195);
+    min-height: 50px;
+ }
+ nav button {
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+ }
+ nav input {
+    width: 50%;
+    height: 25px;
+ }
+
+/* Main */
+main {
+    gap: 10px;
+    width: 80%;
+}
+.leftside {
+    flex: 2;
+    background-color: #f6f6f6;
+    min-height: 600px;
+    padding: 10px;
+
+}
+.rigthside {
+    flex: 1;
+    background-color: #f6f6f6;
+    min-height: 600px;
+    padding: 10px;
+}
+ .boxninja {
+    width: 90%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+
+ }
+ .inforigth {
+    flex: 2;
+    
+ }
+ .infoleft {
+    flex: 4;
+    
+ }
+ .likes {
+    background-color: orange;
+    width: 70px;
+    height: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    float: left;
+    margin-top: 20px;
+    
+ }
+ .Definition {
+    background-color: rgb(100, 240, 149);
+    width: 90%;
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    
+    margin-top: 20px;
+    
+ }

@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Button Clicker</title>
 </head>
 <body>
+    <nav class="flexbox">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="loginout(this)">LOGIN</button>
+    </nav>
+    <main class="flexbox">
+        <div class="leftside">
+            <div class="boxninja flexbox">
+                <div class="inforigth">
+                    <h2>Ninja</h2>
+                    <em>noun</em>
+                    <p>plural: ninja</p>
+                    <div class="likes flexbox" onclick="showaler()">13 Likes</div>
+                </div> 
+                <div class="infoleft">
+                    <h2>A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h2>
+                </div> 
+            </div>
+            <div class="boxninja flexbox">
+                <div class="inforigth">
+                    <h2>Ninja</h2>
+                    <em>noun</em>
+                    <p>plural: ninja</p>
+                    <div class="likes flexbox" onclick="showaler()">37 Likes</div>
+                </div> 
+                <div class="infoleft">
+                    <h2>A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h2>
+                </div> 
+            </div>
+        </div>
+        <div class="rigthside">
+            <div class="boxninja flexbox">
+                <div class="inforigth">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <div class="Definition flexbox" onclick="hiden(this)">Add Definition</div>
+                </div> 
+            </div>
+        </div>
+    </main>
     
+<script src="script.js"></script>
 </body>
 </html>

@@ -128,6 +128,7 @@ body {
 
 a {
     color: #3a81e6;
+    cursor: pointer;
 }
 
 .dates {

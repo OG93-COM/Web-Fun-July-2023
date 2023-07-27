@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.boxlikes {
+    width: 40%;
+    height: 120px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    overflow: hidden;
+
+ }
+ .likes {
+    background-color: orange;
+    width: 70px;
+    height: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+    cursor: pointer;
+ }
+ .para {
+    padding: 30px;
+ }

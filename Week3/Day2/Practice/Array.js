@@ -41,6 +41,40 @@ function highPass(arr, cutoff) {
     return filteredArr;
 }
 
+function betterThanAverage(arr) {
+    var sum = 0;
+
+    for(var i=0; i<arr.length; i++) {
+        sum += arr[i];
+    }
+
+    var avg = sum / arr.length;
+    var count = 0
+
+    for(var i=0; i<arr.length; i++) {
+        if(arr[i] > avg) {
+            count++;
+        }
+    }
+    return count;
+}
+var result = betterThanAverage([6, 8, 3, 10, -2, 5, 9]);
+
+function reverse(arr) {
+    var left = 0;
+    var right = arr.length - 1;
+    while(left < right) {
+        var temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+        left++;
+        right--;
+    }
+   
+    return arr;
+}
+   
+var result = reverse(["a", "b", "c", "d", "e"]);
 
 function fibonacciArray(n) {
     var fibArr = [0, 1];

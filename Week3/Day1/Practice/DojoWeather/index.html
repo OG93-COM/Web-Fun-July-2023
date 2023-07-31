@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <nav class="flexbox">
+        <h1>Dojo Weather</h1>
+        <ul class="navlinks flexbox">
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dalas</li>
+        </ul>
+    </nav>
+    <header  class="flexbox">
+        <h2>San Jose</h2>
+        <div>
+            <label >Show temperature in</label>
+            <select name="tempSelect" id="tempSelect">
+                <option value="C" selected>ºC</option>
+                <option value="F">ºF</option>
+              </select>
+        </div>
+
+    </header>
+    <main class="flexbox">
+        <div class="dayweather">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt="Rain">
+            <p>Some Rain</p>
+            <div class="flexbox">
+                <span class="hot">24°</span>
+                <span class="cold">18°</span>
+            </div>
+        </div>
+        <div class="dayweather">
+            <h3>Tomorrow</h3>
+            <img src="assets/some_sun.png" alt="Sun">
+            <p>Some Sun</p>
+            <div class="flexbox">
+                <span class="hot">27°</span>
+                <span class="cold">19°</span>
+            </div>
+        </div>
+        <div class="dayweather">
+            <h3>Friday</h3>
+            <img src="assets/some_clouds.png" alt="Clouds">
+            <p>Some Clouds</p>
+            <div class="flexbox">
+                <span class="hot">21°</span>
+                <span class="cold">16°</span>
+            </div>
+        </div>
+        <div class="dayweather">
+            <h3>Saturday</h3>
+            <img src="assets/some_sun.png" alt="Rain">
+            <p>Some Rain</p>
+            <div class="flexbox">
+                <span class="hot">26°</span>
+                <span class="cold">21°</span>
+            </div>
+        </div>
+        
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

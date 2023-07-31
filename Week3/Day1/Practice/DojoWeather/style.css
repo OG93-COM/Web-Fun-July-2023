@@ -33,6 +33,7 @@ header select, header h2 ,header label{
 }
 main {
     width: 90%;
+    padding: 10px 0px;
 }
 .dayweather {
     background-color: #d4d4d4;
@@ -46,13 +47,27 @@ main {
     border-radius: 50%;
     padding: 40px 10px;
 }
-.hot {
+.temp1, .temp3, .temp5, .temp7 {
     color: red;
     font-weight: bold;
     padding: 20px;
 }
-.cold {
+.temp2, .temp4, .temp6, .temp8 {
     color: rgb(0, 146, 213);
     font-weight: bold;
     padding: 20px;
+}
+section {
+    width: 85%;
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+}
+.btn{
+    padding: 10px;
+    width: 20%;
+}
+section img {
+    padding: 10px;
+    width: 15%;
 }

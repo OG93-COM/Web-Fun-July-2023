@@ -20,7 +20,7 @@
         <h2>San Jose</h2>
         <div>
             <label >Show temperature in</label>
-            <select name="tempSelect" id="tempSelect">
+            <select name="tempSelect" id="tempSelect" onchange="convert(this)">
                 <option value="C" selected>ºC</option>
                 <option value="F">ºF</option>
               </select>
@@ -33,8 +33,8 @@
             <img src="assets/some_rain.png" alt="Rain">
             <p>Some Rain</p>
             <div class="flexbox">
-                <span class="hot">24°</span>
-                <span class="cold">18°</span>
+                <span class="temp1">24°</span>
+                <span class="temp2">18°</span>
             </div>
         </div>
         <div class="dayweather">
@@ -42,8 +42,8 @@
             <img src="assets/some_sun.png" alt="Sun">
             <p>Some Sun</p>
             <div class="flexbox">
-                <span class="hot">27°</span>
-                <span class="cold">19°</span>
+                <span class="temp3">27°</span>
+                <span class="temp4">19°</span>
             </div>
         </div>
         <div class="dayweather">
@@ -51,8 +51,8 @@
             <img src="assets/some_clouds.png" alt="Clouds">
             <p>Some Clouds</p>
             <div class="flexbox">
-                <span class="hot">21°</span>
-                <span class="cold">16°</span>
+                <span class="temp5">21°</span>
+                <span class="temp6">16°</span>
             </div>
         </div>
         <div class="dayweather">
@@ -60,13 +60,22 @@
             <img src="assets/some_sun.png" alt="Rain">
             <p>Some Rain</p>
             <div class="flexbox">
-                <span class="hot">26°</span>
-                <span class="cold">21°</span>
+                <span class="temp7">26</span>°
+                <span class="temp8">21</span>°
             </div>
         </div>
         
     </main>
+    <section class="flexbox cookie">
+        <img src="assets/cookie.png" alt="cookie">
+        <div>
+            <h3>Stop! Cookie time.</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our site traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button class="btn" onclick="accept()">I Accept</button>
 
+    </section>
+ 
 
 
     <script src="script.js"></script>

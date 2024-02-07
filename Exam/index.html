@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belt Exam - Plush Store WF2021</title>
+</head>
+<body>
+<!-- The NAV BAR -->
+    <nav>
+        <!-- This is The Pink Top BAR -->
+        <div class="topBar flexbox">
+            <h2>FREE PHONE GRIP ON SELECT PURCHASES</h2> 
+        </div>
+        <!-- This is The Search and Logo BAR -->
+        <div class="mainTopBar flexbox">
+            <h1 class="logoText">PlushStar</h1>
+            <input type="text" placeholder="Search" class="search">
+            <span id="productInCart">0</span>
+            <img src="images/cart-dark.png" alt="logoCart">
+        </div>
+        <!-- This is The Menu -->
+        <div class="menu flexbox">
+            <ul class="navlinks theMagicWrap">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#" >Blog</a></li>
+                <li><a href="#" onclick='alert("Contact Us at 5555-5555")'>Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- END NAV BAR -->
+<!-- The Header -->
+    <header class="flexbox">
+        <h2>Plushy Store</h2>
+    </header>
+<!-- END The Header -->
+<!-- This is The Main Content -->
+    <main>
+        <!-- This is The Bar Of Sort Price -->
+        <div class="mainBar flexbox theMagicWrap">
+            <div class="flexbox">
+                <span id="numbSpan">62 </span>
+                <p>Products, sorted by </p>
+                <span id="sortSpan">Best Selling</span>
+            </div>
+            <div>
+                <label >Sort by</label>
+                <select name="sorting" id="sorting" onchange="sortingSpanChange(this)">
+                    <option value="selectBestSel" selected>Best Selling</option>
+                    <option value="selectPrice">Price</option>
+                </select>
+            </div>
+        </div>
+        <!-- Here Our Products -->
+        <div class="mainContent flexbox">
+            <div class="product blockdisplay">
+                <img src="images/product-image.png" alt="imageOfProduct1">
+                <h3>Mischief Mouse</h3>
+                <button class="btnProduct" onclick="addToCart()">BUY</button>
+            </div>
+            <div class="product blockdisplay">
+                <img src="images/product-image.png" alt="imageOfProduct2">
+                <h3>Shy Shrew</h3>
+                <button class="btnProduct" onclick="addToCart()">BUY</button>
+            </div>
+            <div class="product blockdisplay">
+                <img src="images/product-image.png" alt="imageOfProduct3">
+                <h3>Hangry Hamster</h3>
+                <button class="btnProduct" onclick="addToCart()">BUY</button>
+            </div>
+            <div class="product blockdisplay">
+                <img src="images/product-image.png" alt="imageOfProduct4">
+                <h3>Chilly Chinchilla</h3>
+                <button class="btnProduct" onclick="addToCart()">BUY</button>
+            </div>
+        </div>
+    </main>
+<!-- END Of The Main Content -->
+    
+<script src="script.js"></script>
+</body>
+</html>
